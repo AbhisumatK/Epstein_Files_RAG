@@ -1,3 +1,5 @@
+import os
+os.environ["USE_TORCH"] = "1" # Force PyTorch, disable TensorFlow
 import streamlit as st
 import os
 from dotenv import load_dotenv

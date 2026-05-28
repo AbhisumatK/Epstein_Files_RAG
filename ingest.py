@@ -1,4 +1,6 @@
 import os
+os.environ["USE_TORCH"] = "1" # Force PyTorch, disable TensorFlow
+import os
 import pandas as pd
 from dotenv import load_dotenv
 from huggingface_hub import hf_hub_download

@@ -1,4 +1,6 @@
 import os
+os.environ["USE_TORCH"] = "1" # Force PyTorch, disable TensorFlow
+import os
 from dotenv import load_dotenv
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
