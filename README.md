@@ -63,4 +63,5 @@ streamlit run app.py
 This application includes specialized system prompts to ensure the assistant stays strictly within the investigative context. It will refuse out-of-scope requests (like general knowledge or unrelated tasks) to maintain the integrity of the analysis.
 
 ## 📄 License
-This project is open-source. Please check individual document sources for their respective data usage policies.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
