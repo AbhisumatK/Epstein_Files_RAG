@@ -1,3 +1,4 @@
+# LangChain & Extensions
 langchain
 langchain-community
 langchain-huggingface
@@ -7,8 +8,14 @@ langchain-groq
 langchain-openai
 langchain-text-splitters
 langchain-core
+langchain-classic
+
+# Vector Store & Embeddings
 chromadb
 sentence-transformers
+torch>=2.0.0
+
+# UI & Utilities
 streamlit
 python-dotenv
 pandas
@@ -16,3 +23,7 @@ fastparquet
 requests
 tqdm
 huggingface_hub
+
+# Fix for Protobuf / TensorFlow conflicts on Windows
+# This version is known to be stable with current Transformers
+protobuf==3.20.3

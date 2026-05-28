@@ -17,6 +17,7 @@ An open-source Retrieval-Augmented Generation (RAG) platform to explore and anal
 ### 1. Prerequisites
 - **Python 3.10+** (Recommend using a virtual environment).
 - **Ollama** (Optional): If you want to run LLMs completely locally. Download at [ollama.com](https://ollama.com/).
+- **Windows Users**: If you encounter DLL initialization errors with TensorFlow/Transformers, ensure you follow the installation steps below precisely, as the `requirements.txt` includes critical fixes for `torch` and `protobuf`.
 
 ### 2. Installation
 Clone the repository and install dependencies:
